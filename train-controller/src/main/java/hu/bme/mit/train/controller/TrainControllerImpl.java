@@ -13,7 +13,7 @@ public class TrainControllerImpl implements TrainController {
 	private Timer timer = new Timer();
 	
 	public void startObserve() {
-		timer.schedule(new TimerTask() {public void run() {followSpeed();}}, 10);
+		timer.schedule(new TimerTask() {public void run() {followSpeed();}}, 100);
 	}
 	
 	@Override
