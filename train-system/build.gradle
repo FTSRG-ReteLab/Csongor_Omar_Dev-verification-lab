@@ -1,4 +1,5 @@
 dependencies {
+  plugins {     id "org.sonarqube" version "2.2"   }
   compile project(':train-controller')
   compile project(':train-sensor')
   compile project(':train-user')
