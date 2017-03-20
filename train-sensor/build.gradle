@@ -1,5 +1,5 @@
+plugins {     id "org.sonarqube" version "2.2"   }
 dependencies {
-	plugins {     id "org.sonarqube" version "2.2"   }
     compile project(':train-interfaces')
     compile project(':train-user')
 
